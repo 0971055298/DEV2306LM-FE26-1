@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    td p {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 5px;
+        width: 85px;
+        text-align: left;
+        height: 24px;
+        font-size: 14px;
+    }
+    
+    .before::before {
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 34px;
+        background-color: #999;
+        right: -4px;
+    }
+    
+    td input {
+        width: 100%;
+        font-size: 14px;
+        padding: 7.8px 0;
+        border: 1px solid #dad8d8;
+    }
+    
+    .mgr {
+        margin-right: 5px;
+    }
+</style>
+<body>
+    <table width="1000px" bgcolor="#f4f6f9" style="padding: 10px 20px;">
+        <tr>
+            <td colspan="8">
+                <p style="padding: 0; width: 100%; text-align: left; font-size: 18px; margin-top: 8px; margin-bottom: 12px;">Thông tin về công ty</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="before" style="background-color: #999; position: relative;">Tên công ty</p>
+            </td>
+            <td colspan="5"> <input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>
+                <p class="before" style="background-color: #999; position: relative;">Số điện thoại</p>
+            </td>
+            <td colspan="5"> <input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>
+                <p class="before" style="background-color: #999; position: relative;">Email</p>
+            </td>
+            <td colspan="5"> <input type="email" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>
+                <p class="before" style="background-color: #999; position: relative;">Địa chỉ</p>
+            </td>
+            <td colspan="5">
+                <select style=" border: 1px solid #dad8d8; font-size: 14px;         padding: 7.8px 0;
+                width: 100%; padding-left: 6px;" name="" id="">
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="before" style="background-color: #999; position: relative;">Facebook</p>
+            </td>
+            <td> 
+                <input class="mgr" type="text" name="" id="">
+            </td>
+            <td>
+        </tr>
+    </table>
+</body>
+</html>

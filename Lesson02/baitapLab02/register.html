@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+    <table width="500px" border="0">
+        <caption><h1>Đăng Ký Thành Viên</h1></caption>
+            <tr>
+                <td width="150">Họ tên</td>
+                    <td><input type="text" name="txt" id="txt"></td>
+            </tr>
+            <tr>
+                <td>Tên đăng nhập</td>
+                <td><input type="text" name="txt" id="txt"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password" name="pass" id="pass"></td>
+            </tr>
+            <tr>
+                <td>Ảnh đại diện</td>
+                <td><input type="file" name="avata" id="avata"></td>
+            </tr>
+            <tr>
+                <td>Thư điện tử</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" name="gender" id="gtNam" checked>Nam
+                    <input type="radio" name="gender" id="gtNu">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích</td>
+                <td>
+                    <input type="checkbox" name="bongda" id="bongda">Bóng đá
+                    <input type="checkbox" name="xemphim" id="xemphim">Xem phim
+                    <br>
+                    <input type="checkbox" name="dulich" id="dulich">Du lịch
+                    <input type="checkbox" name="boi" id="boi">Bơi
+                    <input type="checkbox" name="nghenhac" id="nghenhac">Nghe nhạc
+                </td>
+            </tr>
+            <tr>
+                <td>Quê quán</td>
+                <td>
+                    <select name="chonTinh" id="chonTinh">
+                        <option value="">---Chọn Tỉnh---</option>
+                        <option value="1">TP.Hà Nội</option>
+                        <option value="2">TP.HCM</option>
+                        <option value="3">TP.Đà Nẵng</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td>
+                    <input type="text" name="diaChi" id="diaChi">
+                </td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td>
+                    <input type="tel" name="tel" id="tel">
+                </td>
+            </tr>
+            <tr>
+                <td>Mô tả ngắn</td>
+                <td>
+                    <textarea name="moTa" id="moTa" cols="30" rows="6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="dangKy" id="dangKy" value="Đăng Ký">
+                    <input type="reset" name="lamLai" id="lamLai" value="Làm lại">
+                </td>
+            </tr>
+    </form>
+    </table>
+</body>
+</html>
