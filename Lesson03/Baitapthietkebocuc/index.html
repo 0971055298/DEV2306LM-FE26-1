@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết kế bố cục nội dung</title>
+    <style>
+        header, section, footer{
+            border: solid 0px;
+        }
+        nav{
+            display: flex;
+            background-color: cornflowerblue;
+        }
+        header ul{
+            list-style: none;
+            display: flex;
+            padding: 1;
+            margin: 0;
+            gap: 15px;
+        }
+        header ul li a{
+            display: block;
+            padding: .5rem 1rem;
+            text-decoration: none;
+        }
+        a{
+            text-align: none;
+            color: white;
+        }
+        a:hover{
+            color: purple;
+        }
+        section{
+            border: 0px;
+            display: flex;
+            background-color: #ccc;
+        }
+        footer{
+            color: yellow;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Devmaster Academy">
+        <nav>         
+            <ul>
+                <li><a href="#" title="Trang chủ">Trang chủ</a></li>
+                <li><a href="#" title="Sản phẩm">Sản phẩm</a></li>
+                <li><a href="#" title="Dịch vụ">Dịch vụ</a></li>
+                <li><a href="#" title="Liên hệ">Liên hệ</a></li>
+                <li><a href="#" title="Hỗ trợ">Hỗ trợ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <img src="devmaster-lap-trinh-vien-website-php-va-mysql-chuyen-nghiep.png" alt="">
+    </table>
+    <section id="top">
+        <article>
+            <div class="container">
+                <h2>Sản phẩm nổi bật</h2>
+                <img src="hoc-lap-trinh-website.jpg" alt="">
+            </div>
+        </article>
+    </section>
+    <section id="News">
+        <article>
+                <div>
+                <h3>Tin tức nội bộ</h3>
+                    <a href="#">Khai giảng khoá lập trình web</a>
+                    <img src="hoc-lap-trinh-php-va-mysql.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed quis accusantium consequatur iure nemo earum, porro voluptas laboriosam? Laborum quia sapiente labore. Itaque porro quasi, nostrum odit ratione vero.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <img src="logo.png" alt="">
+        <p><b>Viện công nghệ và đào tạo Devmaster</b></p>
+    </footer>
+</body>
+</html>
