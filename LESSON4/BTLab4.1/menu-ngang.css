@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    border: 1px solid #000;
+    background-color: cornflowerblue;
+}
+nav >ul li{
+    position: relative;
+}
+nav ul a{
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+    color: white;
+}
+nav ul a:hover{
+    background-color: pink;
+    color: black;
+}
+nav ul li>ul{
+    display: none;
+    position: absolute;
+}
+nav > ul li:hover > ul{
+    display: block;
+    min-width: 15rem;
+}

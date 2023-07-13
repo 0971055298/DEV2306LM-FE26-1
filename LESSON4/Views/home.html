@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS phase 1</title>
+
+    <style>
+        /* .header{
+            background-color: aqua;
+            height: 300px;
+        }
+        #section{
+            background-color: rgb(235, 8, 8);
+            height: 150px;
+        } */
+        .box-top{
+            height: 100px;
+            width: 500px;
+            border: 2px solid red;
+        }
+        .box-bottom{
+            display: flex;
+        }
+        .box-left{
+            height: 400px;
+            width: 200px;
+            border: 2px solid rgb(96, 210, 20);
+        }
+        .box-sub-top{
+            height: 200px;
+            width: 297px;
+            border: 2px solid rgb(38, 13, 227);
+        }
+        .box-sub-bottom{
+            height: 196px;
+            width: 297px;
+            border: 2px  solid rgb(238, 231, 10);
+        }
+    </style>
+</head>
+<body>
+    <header class="header" id="header" data-dev="1" >
+        <h1 style="color: #72da0b; font-size: 100px;">Bắt đầu với CSS</h1>
+    </header>
+
+    <section class="header" id="section">
+        <pre>
+            I, Lưu ý: độ ưu tiên trong css
+            1, id
+            2, attr
+            3, class
+            4, element
+            *) khi áp dụng đuôi !important => ưu tiên hơn các thành phần còn lại 
+        </pre>
+
+
+        <div class="box">
+            <div class="box-top">
+
+            </div>
+            <div class="box-bottom">
+                <div class="box-left"></div>
+                <div class="box-right">
+                    <div class="box-sub-top"></div>
+                    <div class="box-sub-bottom"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
